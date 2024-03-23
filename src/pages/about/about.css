@@ -1,0 +1,44 @@
+.ourCoffeePageContainer {
+  background-image: url("../../assets/menu-background.PNG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ourCoffeeDescriptionContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.ourCoffeeTitle-h1 {
+  font-family: "PT Serif";
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.ourCoffeeIngress-h3 {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19.2px;
+}
+
+.ourCoffee-p1,
+.ourCoffee-p2 {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 19.2px;
+}
+
+.owner {
+  margin-bottom: 200px;
+}
+
+.ourCoffeeTitle-h1,
+.ourCoffeeIngress-h3,
+.ourCoffee-p1,
+.ourCoffee-p2 {
+  color: #2f2926;
+}

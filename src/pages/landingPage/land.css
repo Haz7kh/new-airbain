@@ -1,0 +1,58 @@
+.landingPageContainer .landingPageHeader .landingPageTitle {
+  color: #ffffff;
+}
+
+.landingPageContainer .landingPageHeader .landingPageSubtitle {
+  color: #ffffff;
+}
+
+.landingPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/landing_background.jpg");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.landingPageHeader {
+  text-align: center;
+  align-content: center;
+  width: 257px;
+  height: auto;
+  margin-top: 5rem;
+}
+
+.pageContent {
+  margin-top: 10.5rem;
+  margin-left: 3rem;
+}
+
+.airbeanIcon {
+  width: 75px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.landingPageTitle {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #ffffff;
+  width: 257px;
+  height: 47px;
+  margin-bottom: 15px;
+}
+
+.landingPageSubtitle {
+  width: 257px;
+  height: 19px;
+  top: 396px;
+  left: 58px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+  font-size: 11px;
+  letter-spacing: 0.3ch;
+}

@@ -1,0 +1,53 @@
+.orangeBackground {
+  display: flex;
+  justify-content: center;
+}
+
+.orderOnItsWayContainer {
+  background-color: #e5674e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.orderOnItsWay-p,
+.orderOnItsWay-h3,
+.orderOnItsWay-h1 {
+  color: white;
+}
+
+.orderOnItsWay-p {
+  font-family: "Work Sans";
+  font-weight: lighter;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.drone-img {
+  padding: 75px;
+}
+
+.orderOnItsWay-h1 {
+  font-family: "PT Serif";
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.orderOnItsWay-h3 {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 22px;
+  padding-bottom: 70px;
+}
+
+.orderOnItsWay-btn {
+  width: 184px;
+  height: 55px;
+  border-radius: 25px;
+  font-family: "PT Serif";
+  font-size: 24px;
+  font-weight: 700;
+}

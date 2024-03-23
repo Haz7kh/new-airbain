@@ -1,0 +1,76 @@
+.yourOrderPageContainer {
+  background-image: url(../../assets/menu-background.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cart {
+  background-color: #ffffff;
+  width: 341px;
+  height: 565.77px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.yourOrderContainer {
+  height: 319px;
+  width: 311px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-left: 1rem;
+}
+
+.yourOrderTitle-h1 {
+  font-family: "PT Serif";
+  font-weight: 700;
+  font-size: 32px;
+  color: #2f2926;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.yourOrderPrice-p {
+  font-family: "Work Sans";
+  font-size: 12px;
+  font-weight: 400;
+  color: #2f2926;
+  margin-top: 1rem;
+}
+
+.single-cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.increase,
+.decrease {
+  width: 30px;
+}
+
+p {
+  text-align: center;
+}
+
+.cartSummary {
+  margin-left: 20px;
+}
+
+.takeMoneyBtn {
+  width: 248px;
+  height: 55px;
+  border-radius: 50px;
+  background-color: #2f2926;
+  color: white;
+  font-family: "PT Serif";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  margin-left: 50px;
+  text-align: center;
+}

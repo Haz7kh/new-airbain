@@ -1,0 +1,60 @@
+.menuPageContainer {
+  background-image: url("../../assets/menu-background.PNG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.menuContainer {
+  justify-content: center;
+  margin-top: -0.5rem;
+}
+
+.addChoice {
+  display: flex;
+  align-items: center;
+}
+.addProduct {
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+}
+
+.menuDescription {
+  margin-left: 10px;
+}
+
+.menuPage-h1,
+.menuPage-h3,
+.menuPage-p {
+  color: #2f2926;
+  font-family: "PT" Serif;
+}
+
+.menuPage-h1 {
+  width: 311px;
+  height: 60px;
+  font-weight: bold;
+  size: 42px;
+  line-height: 50.4px;
+}
+
+.menuPage-h3 {
+  width: 194.44px;
+  height: 46px;
+  font-family: "PT" Serif;
+  font-weight: 700;
+  size: 23px;
+  line-height: 27.6px;
+  margin-top: 10px;
+}
+
+.menuPage-p {
+  width: 194.44px;
+  height: 24px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15.6px;
+  margin-bottom: 10px;
+}
