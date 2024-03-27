@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Landing from "./pages/landingPage/Landing";
-// import OrderHistory from "./Pages/OrderHistory/OrderHistory.jsx";
 import OrderStatus from "./pages/orderStatus/OrderStatus";
 import About from "./pages/about/About.jsx";
 import Menu from "./pages/menu/Menu";
@@ -14,7 +13,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Router>
       <Routes>
         <Route path="/" element={<Landing />} />
-        {/* <Route path="/orderhistory" element={<OrderHistory />} /> */}
         <Route path="/order-status" element={<OrderStatus />} />
         <Route path="/about" element={<About />} />
         <Route path="/menu" element={<Menu />} />
