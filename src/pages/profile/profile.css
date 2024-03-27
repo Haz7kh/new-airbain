@@ -1,0 +1,59 @@
+.welcomePageContainer {
+  background-repeat: no-repeat;
+}
+
+.welcomeContainer {
+  background-color: #f3e4e1;
+  height: 565px;
+  width: 341px;
+  margin: 0 auto;
+}
+
+.welcomeContainer .topSection {
+  text-align: center;
+}
+
+.logoMain {
+  color: #585251;
+}
+
+.topSection h1 {
+  font-family: "PT Serif";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.registerForm .textInputLabel,
+.registerForm input[type="text"],
+.registerForm input[type="submit"] {
+  display: block;
+}
+
+.registerForm input[type="text"] {
+  width: 310px;
+  height: 48px;
+  border-radius: 6px;
+  background-color: #f3e4e1;
+}
+
+.registerForm input[type="submit"] {
+  margin: 0 auto;
+  background-color: #2f2926;
+  color: white;
+  width: 248px;
+  height: 55px;
+  border-radius: 50px;
+}
+
+.registerForm input[type="checkbox"]::before {
+  content: "";
+  display: inline-block;
+  background-color: #0e927d;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  font-family: "PT Serif";
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
